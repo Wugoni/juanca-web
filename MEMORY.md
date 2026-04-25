@@ -1,0 +1,42 @@
+# MEMORY.md
+
+## Stable facts
+- Human name: Juan Carlos Sánchez Pérez (Juan Carlos / Juanka).
+- Assistant name: Wugoni.
+- Setup: OpenClaw running on a Hostinger machine in Germany.
+- Human mentioned ChatGPT Plus access may expire around mid-May and may need context transfer to another machine.
+- Human wants a professional personal-brand website for interviews.
+- Human has 11 years of web programming experience.
+- Technologies mentioned: Java, JSP, JS, TypeScript, Git, NetBeans, Eclipse, IntelliJ.
+- Website should be Spanish-first with English toggle.
+- Wants a photo from Playa de los Muertos (Almería province).
+- Human lives in Almería.
+- Target role: analyst / architect with AI agents.
+- LinkedIn: https://www.linkedin.com/in/juan-carlos-s%C3%A1nchez-p%C3%A9rez/
+- Email provided but not to be shown yet.
+- Experience includes Altia, Grupo Oesía, Indra, Deloitte España, VIEWNEXT, and earlier commercial/promotional roles.
+- Altia:
+  - BSuite for Grupo Piñero — Jan 2026 to present.
+  - Donatello — Mar 2023 to Dec 2025.
+- Grupo Oesía:
+  - Gestor de Expedientes del Gobierno de Aragón — Jan 2022 to Sept 2022.
+  - PAEGA — Jul 2021 to Jan 2022.
+- Indra:
+  - CaixaBank Línea Abierta — Apr 2018 to Jul 2021.
+- Deloitte España:
+  - Generalitat de Catalunya / IAREHA — Jan 2017 to Mar 2018.
+- VIEWNEXT:
+  - Indalo (Cajamar) — Jul 2015 to Dec 2016.
+- Earlier promo roles in 2011-2015.
+- Education/certifications:
+  - University of Almería — Ingeniería Técnica en Informática de Sistemas (2008–2014).
+  - University of Cambridge — B1 de Inglés (Jul 2014).
+  - Oracle — Java SE 6 Programmer Certified Professional (May 2017, ID 1Z0-851).
+  - University of Szeged — Computer Scientist and Engineer (2012–2013).
+  - Erasmus Student Network — Coordinator of volunteering (Sep 2013–Feb 2014).
+  - VIEWNEXT courses: Escuela en JAVA, HTML5 y CSS3, Diseño de BBDD.
+- User sent a personal photo to use as hero image.
+- User wants the photo sharpened only, not beautified or filtered.
+- No strong quantified achievements provided yet; projects to be added later.
+- Borrador conceptual de web personal created.
+- Suggested homepage message: "Programador web con 11 años de experiencia, evolucionando hacia arquitectura y análisis de soluciones impulsadas por IA."
