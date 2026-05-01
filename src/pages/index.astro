@@ -1,0 +1,74 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Juan Carlos Sánchez Pérez | Programador web senior" description="Programador web senior con 11 años de experiencia. Evolucionando hacia arquitectura y análisis de soluciones impulsadas por IA.">
+  <section class="grid-2" style="padding:64px 0 24px;align-items:center;position:relative;">
+    <div>
+      <div class="tag" style="display:inline-flex;gap:10px;align-items:center;padding:10px 14px;border-radius:999px;background:rgba(125,211,252,.12);border:1px solid rgba(125,211,252,.25);color:#d7f3ff;">Programador web senior · Almería</div>
+      <h1>Programador web con 11 años de experiencia, evolucionando hacia arquitectura y análisis de soluciones impulsadas por IA.</h1>
+      <p style="font-size:1.08rem;max-width:58ch;">Perfil técnico sólido, con recorrido en backend, full stack y entornos empresariales de gran tamaño. Me centro en construir soluciones fiables, escalables y con visión de negocio.</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:24px;">
+        <a class="btn primary" href="#experience">Ver experiencia</a>
+        <a class="btn ghost" href="#contact">Contacto</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/juan-carlos-s%C3%A1nchez-p%C3%A9rez/" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </div>
+    <div class="card" style="padding:0;overflow:hidden;border-radius:34px;">
+      <img src="/hero.jpg" alt="Juan Carlos Sánchez Pérez en la playa" style="width:100%;height:650px;object-fit:cover;object-position:center center;filter:contrast(1.08) brightness(1.03) saturate(1.02);" />
+    </div>
+  </section>
+
+  <section id="about" class="grid-2" style="padding:30px 0;">
+    <article class="card">
+      <h2>Sobre mí</h2>
+      <p>Soy programador web desde hace más de una década. He trabajado en proyectos de banca, administración pública y sector privado, en roles backend y full stack.</p>
+      <p>Me gusta entender el problema antes de tocar código y construir soluciones limpias, mantenibles y con sentido de producto.</p>
+    </article>
+    <article class="card">
+      <h2>Lo que busco</h2>
+      <p>Mi siguiente paso natural es un rol donde combine análisis técnico, arquitectura y acompañamiento de soluciones, incorporando automatización e inteligencia artificial cuando aporte valor real.</p>
+    </article>
+  </section>
+
+  <section id="stack" class="card" style="margin-top:20px;">
+    <h2>Stack y tecnologías</h2>
+    <div style="display:flex;flex-wrap:wrap;gap:10px;">
+      <span class="tag">Java</span><span class="tag">JSP</span><span class="tag">JavaScript</span><span class="tag">TypeScript</span><span class="tag">Angular 7</span><span class="tag">Spring Boot</span><span class="tag">Hibernate</span><span class="tag">MyBatis</span><span class="tag">JPA</span><span class="tag">Maven</span><span class="tag">Jenkins</span><span class="tag">Git</span><span class="tag">GitLab</span><span class="tag">Mulesoft</span><span class="tag">NetBeans</span><span class="tag">Eclipse</span><span class="tag">IntelliJ</span>
+    </div>
+  </section>
+
+  <section id="experience" class="card" style="margin-top:20px;">
+    <h2>Experiencia</h2>
+    <div class="timeline">
+      <div class="job"><strong>Altia · Grupo Piñero</strong><br/>BSuite — Ene 2026 a actual<br/>Donatello — Mar 2023 a Dic 2025</div>
+      <div class="job"><strong>Grupo Oesía</strong><br/>Gestor de Expedientes del Gobierno de Aragón — Jul 2021 a Sept 2022<br/>PAEGA — Jul 2021 a Ene 2022</div>
+      <div class="job"><strong>Indra</strong><br/>CaixaBank Línea Abierta — Abr 2018 a Jul 2021</div>
+      <div class="job"><strong>Deloitte España</strong><br/>Generalitat de Catalunya / IAREHA — Ene 2017 a Mar 2018</div>
+      <div class="job"><strong>VIEWNEXT</strong><br/>Indalo (Cajamar) — Jul 2015 a Dic 2016</div>
+    </div>
+  </section>
+
+  <section id="education" class="grid-2" style="padding:20px 0;">
+    <article class="card">
+      <h2>Formación y certificaciones</h2>
+      <ul>
+        <li>Universidad de Almería — Ingeniería Técnica en Informática de Sistemas (2008–2014)</li>
+        <li>University of Cambridge — B1 de Inglés (2014)</li>
+        <li>Oracle — Java SE 6 Programmer Certified Professional (2017)</li>
+        <li>University of Szeged — Computer Scientist and Engineer (2012–2013)</li>
+      </ul>
+    </article>
+    <article class="card" id="contact">
+      <h2>Contacto</h2>
+      <p>Email: <strong>juan.carlos.sanchez.perez@gmail.com</strong></p>
+      <p>Ubicación: Almería, España</p>
+      <form method="post" action="https://formspree.io/f/your-id" style="display:grid;gap:10px;margin-top:14px;">
+        <input name="name" placeholder="Tu nombre" required style="padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:#0d1426;color:var(--txt)" />
+        <input type="email" name="email" placeholder="Tu email" required style="padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:#0d1426;color:var(--txt)" />
+        <input name="subject" placeholder="Asunto" required style="padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:#0d1426;color:var(--txt)" />
+        <textarea name="message" placeholder="Mensaje" rows="5" required style="padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:#0d1426;color:var(--txt)"></textarea>
+        <button class="btn primary" type="submit">Enviar mensaje</button>
+      </form>
+    </article>
+  </section>
+</BaseLayout>
